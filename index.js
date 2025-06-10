@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-export default function Home() {
+export default function LegacyAnalyzer() {
   const [dealType, setDealType] = useState("Mobile Home Park");
   const [file, setFile] = useState(null);
   const [results, setResults] = useState(null);
